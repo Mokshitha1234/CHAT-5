@@ -1,0 +1,38 @@
+
+<html lang="en">
+<head>
+<script src="chat_room.js"></script>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+
+
+
+</head>
+<body onload="start()">
+   <button class="btn btn-danger" onclick="logout()">LOG OUT</button>
+   <center>
+<h3 id="welcome" class="btn btn-primary">Welcome! </h3>
+<br><br>
+<input type="text" id="roomName" placeholder="Enter your room name" class="form-control">
+<br>
+<button onclick="addRoom()">#AddRoom</button>
+ 
+
+
+
+   </center>
+    
+
+
+
+
+
+
+</body>
+</html>

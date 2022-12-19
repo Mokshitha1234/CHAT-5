@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    <title>Chat Room</title>
+</head>
+
+<body>
+    <button class="btn btn-danger" onclick="logout()">LOG OUT</button>
+    <center>
+<br><br> <h1 class="btn btn-info">Chat Page</h1> <br><br>
+<div id="output"></div> <br><br>
+<input id="msg" class="form-control" placeholder="Enter Your Message Here"> <br>
+<button onclick="send()" class="btn btn-primary">Send</button>
+</center>
+<script src="chatpage.js"></script>
+
+
+
+
+</body>
+
+</html>
